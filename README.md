@@ -13,7 +13,8 @@ Este é um aplicativo simples de previsão do tempo desenvolvido com **React Nat
 
 Abaixo está uma captura de tela do aplicativo funcionando:
 
-![Previsão do Tempo](./path/to/your/image.png)  
+<img width="331" height="628" alt="image" src="https://github.com/user-attachments/assets/a30153dd-5310-4ce2-9bd9-126b467cbc7e" />
+
 
 ## Tecnologias Utilizadas
 
