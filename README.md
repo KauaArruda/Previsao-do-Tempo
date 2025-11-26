@@ -1,11 +1,40 @@
-# Sample Snack app
+# Previsão do Tempo - Aplicativo React Native
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um aplicativo simples de previsão do tempo desenvolvido com **React Native**, **Axios** e **FontAwesome** (ou **@expo/vector-icons**), que permite que o usuário busque as condições climáticas de uma cidade. A aplicação utiliza a API do **OpenWeatherMap** para exibir a previsão do tempo em tempo real.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Funcionalidades
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- O usuário pode digitar o nome de uma cidade e buscar as informações do clima.
+- Exibe a temperatura em Celsius e uma descrição do clima (ex.: "algumas nuvens").
+- Exibe um ícone representando as condições climáticas (ex.: ícone de sol ou nuvem).
+- O app lida com estados de carregamento e erros, exibindo mensagens apropriadas.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Imagem do Aplicativo
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Abaixo está uma captura de tela do aplicativo funcionando:
+
+![Previsão do Tempo](./path/to/your/image.png)  
+
+## Tecnologias Utilizadas
+
+- **React Native**: Framework para construir a interface mobile.
+- **Axios**: Para realizar requisições HTTP à API.
+- **@expo/vector-icons**: Biblioteca de ícones para exibir ícones de clima (ex.: sol, nuvem).
+- **OpenWeatherMap API**: Serviço para obter dados climáticos de cidades ao redor do mundo.
+
+## Como Rodar o Projeto
+
+### Pré-requisitos
+
+Antes de rodar o projeto, você precisará de:
+
+- [Node.js](https://nodejs.org/en/) instalado.
+- [React Native CLI](https://reactnative.dev/docs/environment-setup) ou [Expo CLI](https://docs.expo.dev/get-started/installation/) para executar o aplicativo.
+
+### Passos para rodar localmente:
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/previsao-do-tempo.git
+   cd previsao-do-tempo
